@@ -1,0 +1,353 @@
+/* Agregar */
+.accordian-container {
+  margin-bottom: 1rem;
+}
+
+
+
+/* ---------------------------------------------Esta en el CSS----------------------------------------------- */
+/*ACORDEON*/
+.acordeon-mostrar {
+  width: 100%;
+}
+
+.acordeon-mostrar .title {
+  border-bottom: 1px solid #D9DCDE;
+  padding: 15px 0px;
+  cursor: pointer;
+  color: #246FA9;
+  font-size: 16px;
+}
+
+.acordeon-mostrar .icon {
+  font-size: 30px;
+  float: right;
+  transition: all 1s;
+}
+
+.acordeon-mostrar .activa {
+  transform: rotate(90deg);
+  transition: all 1s;
+}
+
+.acordeon-mostrar .contenido-mostrar p {
+  margin-top: 0px;
+}
+
+.acordeon-mostrar .hidden {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* Agregar */
+/* Mecanica 1 */
+#check-1 {
+  display: none;
+}
+
+#check-1:checked~.gmt-mecanica-header div {
+  transform: rotate(130deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#check-1:checked~.gmt-desplegable {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* Mecanica 2 */
+#check-2 {
+  display: none;
+}
+
+#check-2:checked~.gmt-mecanica-header div {
+  transform: rotate(130deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#check-2:checked~.gmt-desplegable {
+  display: block;
+  margin-top: 1rem;
+}
+
+
+/* Mecanica 3 */
+#check-3 {
+  display: none;
+}
+
+#check-3:checked~.gmt-mecanica-header div {
+  transform: rotate(130deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#check-3:checked~.gmt-desplegable {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* Mecanica 4 */
+#check-4 {
+  display: none;
+}
+
+#check-4:checked~.gmt-mecanica-header div {
+  transform: rotate(130deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#check-4:checked~.gmt-desplegable {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* Mecanica 5 */
+#check-5 {
+  display: none;
+}
+
+#check-5:checked~.gmt-mecanica-header div {
+  transform: rotate(130deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#check-5:checked~.gmt-desplegable {
+  display: block;
+  margin-top: 1rem;
+
+}
+
+/* Mecanica 6 */
+
+#check-6 {
+  display: none;
+}
+
+#check-6:checked~.gmt-mecanica-header div {
+  transform: rotate(130deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#check-6:checked~.gmt-desplegable {
+  display: block;
+  margin-top: 1rem;
+
+}
+
+/* Mecanica 7 */
+#check-7 {
+  display: none;
+}
+
+#check-7:checked~.gmt-mecanica-header div {
+  transform: rotate(130deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#check-7:checked~.gmt-desplegable {
+  display: block;
+  margin-top: 1rem;
+
+}
+
+/* Mecanica 8 */
+#check-8 {
+  display: none;
+}
+
+#check-8:checked~.gmt-mecanica-header div {
+  transform: rotate(130deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#check-8:checked~.gmt-desplegable {
+  display: block;
+  margin-top: 1rem;
+
+}
+
+
+.mecanica-1 {
+  background: #0d283d;
+}
+
+.mecanica-2 {
+  background-color: #154061;
+}
+
+.mecanica-3 {
+  background-color: #1d6093;
+}
+
+.mecanica-4 {
+  background-color: #3485c4;
+}
+
+.mecanica-5 {
+  background: #0d283d;
+}
+
+.mecanica-6 {
+  background-color: #154061;
+}
+
+.mecanica-7 {
+  background-color: #1d6093;
+}
+
+.mecanica-8 {
+  background-color: #3485c4;
+}
+
+/* ---------------------------------------------Esta en el CSS----------------------------------------------- */
+/* Ya esta en el css */
+.gmt-mecanica-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 12px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.gmt-mecanica-header.header-1 {
+  background-color: #0d283d;
+}
+
+.gmt-mecanica-header.header-2 {
+  background-color: #154061;
+}
+
+.gmt-mecanica-header.header-3 {
+  background-color: #1d6093;
+}
+
+.gmt-mecanica-header.header-4 {
+  background-color: #3485c4;
+}
+
+.gmt-title {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.gmt-chevron {
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  content: '';
+  display: inline-block;
+  height: 12px;
+  left: -8px;
+  position: relative;
+  top: 0;
+  vertical-align: top;
+  width: 12px;
+  transform: rotate(45deg);
+  border-color: #ffffff;
+  transition: all 0.1s ease-in-out;
+}
+
+.gmt-chevron.rotate {
+  transform: rotate(135deg);
+}
+
+.gmt-desplegable {
+  display: none;
+
+  height: auto;
+  width: 100%;
+
+  margin-top: -12px;
+  margin-bottom: 24px;
+  padding: 12px 12px 16px 12px;
+
+  background-color: #ffffff;
+  color: #6C7786;
+  font-size: 16px;
+}
+
+.gmt-desplegable strong {
+  color: #246fa9;
+}
+
+.gmt-desplegable span {
+  color: #246fa9;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.gmt-desplegable.desplegar {
+  display: block;
+}
