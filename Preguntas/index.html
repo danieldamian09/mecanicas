@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preguntas</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet"
+    href="https://pmi.my.salesforce.com/sfc/dist/version/download/?oid=00D58000000cA7m&ids=0684H00000ATS2oQAH&d=/a/4H000001VXrY/SJi7H7obNm0Xx0zKold0xxnGjnN4DUqJxld9v9pgzuY&operationContext=DELIVERY&viewId=05H4H000001KkopUAC&dpt=">
 </head>
+
 <body>
   
+  <!-- 1 -->
+  <div class="acordeon-mostrar">
+    <input type="checkbox" id="pregunta-1">
+    <label for="pregunta-1" class="acordeon-mostrar-1">
+      <!-- Titulo -->
+      <p class="title">¿Qué es el centro de ayuda? <i class="icon small chevron-right-lightgrey"></i></p>
+    </label>
+    <!-- Contenido -->
+    <div class="contenido-mostrar  hidden">
+      <p class="text">Tenemos dos canales para que puedas contactarte en caso de que tengas algunda duda o consulta:
+        Email y Telefono. </p>
+
+      <p class="text">Mirá el video del Centro de Ayuda. </p>
+
+      <a href="/s/video-ayuda" class="card card-video bg-white round flex-row justify-content-start align-items-unset">
+        <div class="video-image"
+          style="background-image: url('https://pmi--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Jpg&versionId=0684H00000ATS2K&operationContext=DELIVERY&contentId=05T4H00000X3acY&page=0&d=/a/4H000001VXrE/4iEnEymqZN_F.yPES9L02gMxv_9cW0KF3EiYyST4phA&oid=00D58000000cA7m&dpt=null&viewId=')">
+          <div class="play-button">
+            <div class="icon medium play-button-green"></div>
+          </div>
+        </div>
+
+        <div class="p-16 p-l-24 flex-column justify-content-center align-items-center">
+          <p class="blue-500 text-medium-b align-self-start ">Centro de Ayuda </p>
+        </div>
+      </a>
+
+      <div class="align-items-center flex-row justify-content-start m-b-8  m-t-16"> <a href="/s/centro-ayuda"
+          class="text-small-b grey-500">Centro de Ayuda</a>
+        <div class="icon small chevron-right-grey"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 2 -->
+  <div class="acordeon-mostrar">
+    <input type="checkbox" id="pregunta-2">
+    <label for="pregunta-2" class="acordeon-mostrar-2">
+      <!-- Titulo -->
+      <p class="title">¿Cómo me contacto con el Centro de Ayuda?<i class="icon small chevron-right-lightgrey"></i></p>
+    </label>
+    <!-- Contenido -->
+    <div class="contenido-mostrar  hidden">
+        <p class="text">Podés contactarte por e-mail o llamar a un agente para sacarte todas tus dudas o consultas. </p>
+  
+        <a href="https://api.whatsapp.com/send?phone=5491138286736"
+          class="card bg-white round p-4 m-b-16 flex-row align-items-center justify-content-between">
+          <div class="flex-row align-items-center justify-content-start">
+            <div class="icon medium wpp-blue"></div>
+            <div class="m-l-8">
+              <p class="blue-500 text-medium m-b-4">Contactate por Whatsapp </p>
+              <p class="grey-500 text-small">+549 113828-OPEN(6736)</p>
+            </div>
+          </div>
+          <div class="icon medium chevron-right-lightgrey"></div>
+        </a>
+  
+  
+        <a href="tel:08008886275"
+          class="card bg-white round p-4 m-b-16 flex-row align-items-center justify-content-between">
+          <div class="flex-row align-items-center justify-content-start">
+            <div class="icon medium cellphone-blue"></div>
+            <div class="m-l-8">
+              <p class="blue-500 text-medium m-b-4">Llamá a un agente al </p>
+              <p class="grey-500 text-small">0800-888-6275</p>
+            </div>
+  
+          </div>
+          <div class="icon medium chevron-right-lightgrey"></div>
+        </a>
+  
+        <a href="mailto:consultas@goopen.com.ar"
+          class="card bg-white round p-4 m-b-16 flex-row align-items-center justify-content-between">
+          <div class="flex-row align-items-center justify-content-start">
+            <div class="icon medium email-blue"></div>
+            <div class="m-l-8">
+              <p class="blue-500 text-medium m-b-4">Escribinos</p>
+              <p class="grey-500 text-small">contacto@info.goopen.com.ar</p>
+            </div>
+          </div>
+          <div class="icon medium chevron-right-lightgrey"></div>
+  
+        </a>
+  
+  
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="acordeon-mostrar">
+    <input type="checkbox" id="pregunta-3">
+    <label for="pregunta-3" class="acordeon-mostrar-3">
+      <!-- Titulo -->
+      <p class="title">¿Cuál es el horario de atención del Centro de Ayuda?<i class="icon small chevron-right-lightgrey"></i></p>
+    </label>
+    <!-- Contenido -->
+    <div class="contenido-mostrar hidden">
+      <p class="text">Lunes a viernes de 9 hs a 20hs. Sábados de 9 a 13 hs. </p>
+    </div>
+  </div>
+
+
+
+  <!-- 4 -->
+  <div class="acordeon-mostrar">
+    <input type="checkbox" id="pregunta-4">
+    <label for="pregunta-4" class="acordeon-mostrar-4">
+      <!-- Titulo -->
+      <p class="title">¿Qué pasa si tengo una consulta fuera del horario de atención?<i class="icon small chevron-right-lightgrey"></i></p>
+    </label>
+    <!-- Contenido -->
+    <div class="contenido-mostrar hidden">
+      <p class="text">Escribí un e-mail te van a estar respondiendo cuando antes.</p>
+    </div>
+  </div>
+
 </body>
+
 </html>

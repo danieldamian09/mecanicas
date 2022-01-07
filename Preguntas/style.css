@@ -1,0 +1,55 @@
+#pregunta-1,
+#pregunta-2,
+#pregunta-3,
+#pregunta-4,
+#pregunta-5,
+#pregunta-6,
+#pregunta-7,
+#pregunta-8,
+#pregunta-9,
+#pregunta-10,
+#pregunta-11,
+#pregunta-12{
+  display: none;
+}
+
+#pregunta-1:checked~.acordeon-mostrar-1 i,
+#pregunta-2:checked~.acordeon-mostrar-2 i,
+#pregunta-3:checked~.acordeon-mostrar-2 i,
+#pregunta-4:checked~.acordeon-mostrar-2 i,
+#pregunta-5:checked~.acordeon-mostrar-5 i,
+#pregunta-6:checked~.acordeon-mostrar-6 i,
+#pregunta-7:checked~.acordeon-mostrar-7 i,
+#pregunta-8:checked~.acordeon-mostrar-8 i,
+#pregunta-9:checked~.acordeon-mostrar-9 i,
+#pregunta-10:checked~.acordeon-mostrar-10 i,
+#pregunta-11:checked~.acordeon-mostrar-11 i,
+#pregunta-12:checked~.acordeon-mostrar-12 i{
+  transform: rotate(90deg);
+  transition: all 0.5s;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#pregunta-1:checked~.contenido-mostrar,
+#pregunta-2:checked~.contenido-mostrar,
+#pregunta-3:checked~.contenido-mostrar,
+#pregunta-4:checked~.contenido-mostrar,
+#pregunta-5:checked~.contenido-mostrar,
+#pregunta-6:checked~.contenido-mostrar,
+#pregunta-7:checked~.contenido-mostrar,
+#pregunta-8:checked~.contenido-mostrar,
+#pregunta-9:checked~.contenido-mostrar,
+#pregunta-10:checked~.contenido-mostrar,
+#pregunta-11:checked~.contenido-mostrar,
+#pregunta-12:checked~.contenido-mostrar{
+  display: block;
+  margin-top: 1rem;
+}
+
